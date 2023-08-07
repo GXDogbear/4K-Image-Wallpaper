@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width=device-width, initial scale=1.0">
+    <title>
+        Game Consoles    
+    </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+            <ul>
+                <a class="title" href="index2.html"><li class="title">911 WallPaper</li></a>
+                <li>Search</li>
+                <li>All categories</li>
+                <li>Support</li>
+                <li>Setting</li>
+                <li>Log in</li>
+            </ul>
+        </div>
+    </div>
+
+    <div 
+    class="container">
+
+    <div class="swiper">
+
+        <div 
+        class="swiper-wrapper">
+
+        <div class="swiper-slide">
+        <p>Switch</p>
+          <li>
+          <a href="https://media.cnn.com/api/v1/images/stellar/prod/211011165107-nintendo-switch-oled-product-card.jpg?q=x_0,y_0,h_1125,w_1999,c_fill/h_720,w_1280" download="">Download</a>
+          </li>
+          <img src="https://media.cnn.com/api/v1/images/stellar/prod/211011165107-nintendo-switch-oled-product-card.jpg?q=x_0,y_0,h_1125,w_1999,c_fill/h_720,w_1280">
+        </div>
+
+        <div class="swiper-slide">
+        <p>Xbox</p>
+          <li>
+          <a href="https://assets.xboxservices.com/assets/af/2e/af2e6de5-7421-4f4b-a99b-1b067a1af382.jpg?n=10202018_Image-1084_Fam_1920x944.jpg" download="">Download</a>
+          </li>
+          <img src="https://assets.xboxservices.com/assets/af/2e/af2e6de5-7421-4f4b-a99b-1b067a1af382.jpg?n=10202018_Image-1084_Fam_1920x944.jpg">
+        </div>
+
+        <div class="swiper-slide">
+        <p>Playstation</p>
+          <li>
+          <a href="https://blog.playstation.com/tachyon/2022/02/000ab3641a4b94b66eac261d83244dc080e390d4.jpg" download="">Download</a>
+          </li>
+          <img src="https://blog.playstation.com/tachyon/2022/02/000ab3641a4b94b66eac261d83244dc080e390d4.jpg" width="500" height="675">
+        </div>
+
+        <div class="swiper-slide">
+        <p>Steamdeck</p>
+          <li>
+          <a href="https://cdn.cloudflare.steamstatic.com/steamdeck/images/social_media_image.jpg" download="">Download</a>
+          </li>
+          <img src="https://cdn.cloudflare.steamstatic.com/steamdeck/images/social_media_image.jpg">
+        </div>
+
+        <div class="swiper-slide">
+        <p>Oculus quest 2</p>
+          <li>
+          <a href="https://i.ytimg.com/vi/ATVGl9wOJsM/maxresdefault.jpg" download="">Download</a>
+          </li>
+          <img src="https://i.ytimg.com/vi/ATVGl9wOJsM/maxresdefault.jpg" width="500" height="675">
+        </div>
+
+        <div class="swiper-slide">
+        <p>Pico neo</p>
+          <li>
+          <a href="https://p16-picowebsiteimg-va.ibyteimg.com/tos-maliva-i-3sfiono7t4-us/f4b29bd30d83aebaba07d9e5f2c63cf2.png~tplv-3sfiono7t4-png.png" download="">Download</a>
+          </li>
+          <img src="https://p16-picowebsiteimg-va.ibyteimg.com/tos-maliva-i-3sfiono7t4-us/f4b29bd30d83aebaba07d9e5f2c63cf2.png~tplv-3sfiono7t4-png.png" width="500" height="675">
+        </div>
+
+        <div class="swiper-slide">
+        <p>小霸王游戏机</p>
+          <li>
+          <a href="https://cdn.hk01.com/di/media/images/1334557/org/8e4bdcc6525411f8990be09ff8e63b41.jpg/cBsFgk1QRmYZAMwFjv4EzSoQO8yratycpzV7vac1e70?v=w1280r16_9" download="">Download</a>
+          </li>
+          <img src="https://cdn.hk01.com/di/media/images/1334557/org/8e4bdcc6525411f8990be09ff8e63b41.jpg/cBsFgk1QRmYZAMwFjv4EzSoQO8yratycpzV7vac1e70?v=w1280r16_9">
+        </div>
+
+        </div>
+
+        <div 
+        class="swiper-pagination">
+        </div>
+
+        <div 
+        class="swiper-button-prev">
+        </div>
+
+        <div 
+        class="swiper-button-next">
+        </div>
+
+    </div>
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js">
+    </script>
+
+    <script>
+
+      const swiper = new Swiper('.swiper',{
+
+      loop: true,
+
+      autoplay: {
+      delay: 3000,
+      disableOnInterraction: false,
+      },
+
+      pagination: {
+      el:'.swiper-pagination',
+      },
+
+      navigation: {
+      nextEl:'.swiper-button-next',
+      prevEl:'.swiper-button-prev',
+      },
+
+      });
+    </script>
+
+</body>
+
+</html>
