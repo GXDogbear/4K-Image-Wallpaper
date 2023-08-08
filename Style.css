@@ -1,0 +1,78 @@
+body{
+    background-color: #222;
+}
+
+.box{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8775d0;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 40px;
+    font-size: 12px;
+}
+
+.header .title{
+    font-size: 24px;
+    font-style: italic;
+    color: #222;
+}
+
+.header ul li{
+    color: #222;
+}
+
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 700px;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #8775d0;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #8775d0;
+}
+
+.swiper-slide p{
+    font-size: xx-large;
+    color: #fff;
+}
+
+.swiper-slide li{
+    text-align: left;
+    position: fixed;
+}
